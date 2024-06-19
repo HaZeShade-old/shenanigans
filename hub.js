@@ -7,4 +7,4 @@ function onShenanigansOriginalClick() {
 
 
 
-shenanigansOriginalButton.onclick = onShenanigansOriginalClick()
+shenanigansOriginalButton.onclick = onShenanigansOriginalClick
