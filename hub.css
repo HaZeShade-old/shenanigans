@@ -1,0 +1,58 @@
+body {
+    background-image: url("./static/hub-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; /* Keeps the background fixed */
+}
+
+.button-mainmenu {
+
+    transition: height 200ms, width 200ms;
+    transition-timing-function: ease-in-out;
+
+    color: white;
+    font-size: 28px;
+
+    border-width: 1px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; /* Keeps the background fixed */
+
+    position: absolute;
+
+    width: 250px;
+    height: 500px;
+
+    transform: translate(-50%, -50%);
+}
+
+.button-mainmenu:hover {
+    width: 260px;
+    height: 510px;
+}
+
+#shenanigans-remastered-button {
+    background-image: url("./static/shenanigans-remastered-button.png");
+    top: 50%;
+    left: 20%;
+}
+
+#shenanigans-original-button {
+    background-image: url("./static/shenanigans-original-button.png");
+    top: 50%;
+    left: 50%;
+}
+
+#ci-logs-button {
+    background-image: url("./static/ci-logs-button.png");
+    top: 50%;
+    left: 80%;
+}
