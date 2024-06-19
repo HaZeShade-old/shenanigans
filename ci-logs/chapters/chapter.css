@@ -11,10 +11,6 @@
     color: #ff8800
 }
 
-.testing {
-    color: #71d4ff
-}
-
 .recontainment {
     color: #ff3a3a
 }
@@ -48,6 +44,8 @@ body {
 }
 
 #terminal {
+    overflow-y: auto;
+
     width: 50%;
     height: 80%;
     margin: 0 auto;
