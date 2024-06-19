@@ -1,0 +1,60 @@
+body {
+    background-image: url("../static/ci-logs-menu-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; /* Keeps the background fixed */
+}
+
+.button-menu {
+
+    position: absolute;
+
+    transition: background-color 200ms;
+    transition-timing-function: ease-in-out;
+
+    border-width: 0px;
+    border-radius: 10px;
+
+    width: 250px;
+    height: 50px;
+
+    text-align: left;
+
+    background-color: #323232DD;
+    
+
+    color: #FFFFFF;
+    font-size: 24px;
+
+    transform: translate(-50%, -50%);
+}
+
+.button-menu:hover {
+    background-color: #505050;
+}
+
+#button-ch1 {
+    top: 7.5%;
+    left: 10%;
+}
+
+#button-ch2 {
+    top: 7.5%;
+    left: 30%;
+}
+
+#button-ch3 {
+    top: 7.5%;
+    left: 50%;
+}
+
+#button-ch4 {
+    top: 7.5%;
+    left: 70%;
+}
+
+#button-ch5 {
+    top: 7.5%;
+    left: 90%;
+}
