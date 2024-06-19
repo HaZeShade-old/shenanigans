@@ -52,6 +52,8 @@ body {
 }
 
 #terminal {
+    overflow-y: auto;
+    
     width: 50%;
     height: 80%;
     margin: 0 auto;
